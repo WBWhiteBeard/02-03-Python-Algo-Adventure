@@ -1,12 +1,8 @@
-
-
-class bubble_sort:
-    def __init__(self, arr:list):
-        self.arr_1 = arr
-    def sort():
-        length = len(self.arr_1)
-        return self.arr_1
-
+# 冒泡排序
+# 时间复杂度：O(n^2)
+# 空间复杂度：O(1)
+# 稳定性：稳定
+# 适用场景：适用于小规模数据排序
 
 def bubble_sort(arr):
     n = len(arr)
